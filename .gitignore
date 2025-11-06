@@ -1,0 +1,61 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Visual Studio user/workspace
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[xX]64/
+[xX]86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Ll]og/
+ipch/
+out/
+artifacts/
+
+# VSIX build artifacts
+*.vsix
+*.pkgdef
+*.cache
+*.psess
+*.vsp
+*.vspscc
+
+# Test results / coverage
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+
+# NuGet
+*.nupkg
+# If you restore packages locally, ignore them:
+packages/
+# but keep the config file
+!packages/build/
+!packages/repositories.config
+
+# Azure / publish
+*.pubxml
+*.publishsettings
+
+# Rider / Resharper (if you ever open with JetBrains)
+.idea/
+*.DotSettings.user
+
+# NCrunch
+.*ncrunch*
+_*ncrunch*
+
+# Cache
+.vscode/
+ComponentModelCache/
